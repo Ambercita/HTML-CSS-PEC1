@@ -1,0 +1,166 @@
+/* Estilos globales */
+body {
+  font-family: Verdana, Tahoma, sans-serif;
+  color: rgb(43, 52, 69);
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Citas */
+q {
+  quotes: "«" "»";
+}
+
+/* Bloque de cita */
+blockquote {
+  font-style: italic;
+  font-weight: bold;
+  padding: 0 1em;
+  border-left: solid 5px rgb(254, 105, 106);
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+/* Enlaces */
+a {
+  color: rgb(254, 105, 106);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(254, 105, 106, 0.5);
+}
+
+/* Listas */
+li {
+  margin: 0.5em 0;
+}
+
+ul {
+  list-style: disc;
+  margin: 0.8em 0;
+}
+
+.users-list {
+  list-style-image: url("./img/users.svg");
+}
+
+ol h2 {
+  font-weight: normal;
+}
+
+ol ::marker {
+  font-size: 1.5em;
+}
+
+/* Pie de articulo y foto */
+article footer,
+figcaption {
+  font-size: 0.9em;
+}
+
+figcaption {
+  text-align: center;
+}
+
+/* Estilos del header */
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(241, 245, 249);
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0 0 1em 0;
+}
+
+/* Estilos del titulo */
+nav > a:hover {
+  color: rgba(43, 52, 69, 0.5);
+}
+
+nav > a {
+  font-size: 2em;
+}
+
+nav ul a:hover,
+nav ul a.active {
+  color: rgb(254, 105, 106);
+}
+
+.header-title-e {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.6em;
+}
+
+/* Estilos de la navegacion */
+nav ul li {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+nav a {
+  color: rgb(43, 52, 69);
+  font-weight: bold;
+}
+
+/* Estilos del footer */
+body > footer {
+  background-color: black;
+  color: white;
+  line-height: 2;
+  font-size: 0.6em;
+  margin-top: 4em;
+  padding: 1.5em 4em;
+  width: 100%;
+}
+
+/* Contenedor de los articulos */
+article {
+  width: 95%;
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Header del articulo */
+article header {
+  text-align: center;
+  line-height: 1.2;
+  margin: 1.5em 0;
+}
+
+article header h1 {
+  font-size: 2.2em;
+  margin: 1.4rem 1rem 0 1rem;
+}
+
+article header p {
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+/* Imagen */
+article img {
+  margin: 1em auto;
+  display: block;
+}
+
+/*  parrafo introductorio */
+.introduction-paragraph {
+  margin: 1em 5em;
+}
+
+/* Cabecera de las secciones */
+section h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    margin-bottom: 0;
+    font-size: 1.4em;
+}
+
+section h2 + p {
+  margin-top: 0;
+}
